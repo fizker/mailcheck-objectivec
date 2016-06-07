@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.author       = { "David Kasper" => "dkasper@gmail.com" }
   s.source       = { :git => "https://github.com/dkasper/Mailcheck-ObjectiveC.git", :tag => "0.2" }
 
-  s.platform     = :ios, '6.0'
+  s.platform     = :ios, '8.0'
 
   s.source_files = 'Mailcheck/*.{h,m}'
 

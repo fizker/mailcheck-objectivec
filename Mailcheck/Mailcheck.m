@@ -7,7 +7,7 @@
 //
 
 #import "Mailcheck.h"
-#import <NSString-Email/NSString+Email.h>
+@import NSString_Email;
 
 @implementation Mailcheck
 
