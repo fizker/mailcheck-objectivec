@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		43BB78A9A5344A499B3B8BBA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74459E94E2ED460EB0F22F61 /* libPods.a */; };
+		3443F9CFCA9B656B68BB520C /* libPods-MailcheckDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8E3B83A95D433A531153E5 /* libPods-MailcheckDemo.a */; };
 		63A13F22169631EE007BB27E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A13F21169631EE007BB27E /* UIKit.framework */; };
 		63A13F24169631EE007BB27E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A13F23169631EE007BB27E /* Foundation.framework */; };
 		63A13F26169631EE007BB27E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A13F25169631EE007BB27E /* CoreGraphics.framework */; };
@@ -32,7 +32,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5982FBBE8DD54232A2F853C7 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		008E156DD46376288D67B383 /* Pods-MailcheckDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MailcheckDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MailcheckDemo/Pods-MailcheckDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2D8E3B83A95D433A531153E5 /* libPods-MailcheckDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MailcheckDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A13F1D169631EE007BB27E /* MailcheckDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MailcheckDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A13F21169631EE007BB27E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		63A13F23169631EE007BB27E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -57,7 +58,7 @@
 		63A13F5C1696330A007BB27E /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
 		63A13F5F1696357E007BB27E /* TestMailcheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestMailcheck.m; sourceTree = "<group>"; };
 		63B79CCE169640D6009EBA25 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		74459E94E2ED460EB0F22F61 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3676B8B90E2CB5BD36416B /* Pods-MailcheckDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MailcheckDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MailcheckDemo/Pods-MailcheckDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		F772D5BA18A6B76900FDC6BA /* Mailcheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Mailcheck.m; path = ../../Mailcheck/Mailcheck.m; sourceTree = "<group>"; };
 		F772D5BB18A6B76900FDC6BA /* Mailcheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mailcheck.h; path = ../../Mailcheck/Mailcheck.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,7 +71,7 @@
 				63A13F22169631EE007BB27E /* UIKit.framework in Frameworks */,
 				63A13F24169631EE007BB27E /* Foundation.framework in Frameworks */,
 				63A13F26169631EE007BB27E /* CoreGraphics.framework in Frameworks */,
-				43BB78A9A5344A499B3B8BBA /* libPods.a in Frameworks */,
+				3443F9CFCA9B656B68BB520C /* libPods-MailcheckDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +90,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FA755D170C778ECF81C4FFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC3676B8B90E2CB5BD36416B /* Pods-MailcheckDemo.debug.xcconfig */,
+				008E156DD46376288D67B383 /* Pods-MailcheckDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		63A13F12169631EE007BB27E = {
 			isa = PBXGroup;
 			children = (
@@ -97,7 +107,7 @@
 				63A13F4716963253007BB27E /* Tests */,
 				63A13F20169631EE007BB27E /* Frameworks */,
 				63A13F1E169631EE007BB27E /* Products */,
-				5982FBBE8DD54232A2F853C7 /* Pods.xcconfig */,
+				2FA755D170C778ECF81C4FFF /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,7 +127,7 @@
 				63A13F21169631EE007BB27E /* UIKit.framework */,
 				63A13F23169631EE007BB27E /* Foundation.framework */,
 				63A13F25169631EE007BB27E /* CoreGraphics.framework */,
-				74459E94E2ED460EB0F22F61 /* libPods.a */,
+				2D8E3B83A95D433A531153E5 /* libPods-MailcheckDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -178,11 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63A13F3B169631EF007BB27E /* Build configuration list for PBXNativeTarget "MailcheckDemo" */;
 			buildPhases = (
-				3E6AD84DA7D74B869324F19E /* Check Pods Manifest.lock */,
+				54CCC25209EEBAC2F2B406D1 /* 📦 Check Pods Manifest.lock */,
 				63A13F19169631EE007BB27E /* Sources */,
 				63A13F1A169631EE007BB27E /* Frameworks */,
 				63A13F1B169631EE007BB27E /* Resources */,
-				FE56F2B2FE34434295E48B3B /* Copy Pods Resources */,
+				320D9A947665E6220392DA3B /* 📦 Embed Pods Frameworks */,
+				D281BF7E153C688C6290BF29 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -263,14 +274,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3E6AD84DA7D74B869324F19E /* Check Pods Manifest.lock */ = {
+		320D9A947665E6220392DA3B /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MailcheckDemo/Pods-MailcheckDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54CCC25209EEBAC2F2B406D1 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,19 +304,19 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		FE56F2B2FE34434295E48B3B /* Copy Pods Resources */ = {
+		D281BF7E153C688C6290BF29 /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MailcheckDemo/Pods-MailcheckDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -389,7 +415,7 @@
 		};
 		63A13F3C169631EF007BB27E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5982FBBE8DD54232A2F853C7 /* Pods.xcconfig */;
+			baseConfigurationReference = EC3676B8B90E2CB5BD36416B /* Pods-MailcheckDemo.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -406,7 +432,7 @@
 		};
 		63A13F3D169631EF007BB27E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5982FBBE8DD54232A2F853C7 /* Pods.xcconfig */;
+			baseConfigurationReference = 008E156DD46376288D67B383 /* Pods-MailcheckDemo.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
